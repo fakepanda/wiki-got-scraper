@@ -1,0 +1,30 @@
+{
+  "name": "wiki-got-scraper",
+  "version": "0.1.0",
+  "description": "Gotta scrape em all, GOT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakepanda/wiki-got-scraper.git"
+  },
+  "author": "Gen Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fakepanda/wiki-got-scraper/issues"
+  },
+  "homepage": "https://github.com/fakepanda/wiki-got-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0"
+  }
+}
